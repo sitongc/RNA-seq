@@ -1,4 +1,5 @@
 # RNA-seq
+![example output](RNA-pipeline.png)
 This pipeline utilizes Snakemake to perform RNA-seq analysis, including read alignment using STAR, quantification using Salmon, alternative splicing analysis using Darts. The pipeline is designed to handle multiple samples in parallel and automate the entire workflow from raw FASTQ files to TPM / alternative splicing results.
 
 
