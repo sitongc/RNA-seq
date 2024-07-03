@@ -6,6 +6,7 @@ This pipeline utilizes Snakemake to perform RNA-seq analysis, including read ali
 
 ### Alignment with STAR
 Paired-end reads are aligned to the reference genome using STAR.
+
 Aligned reads are sorted and converted to BAM/ TranscriptomeBAM format.
 
 ### Quantification with Salmon
@@ -13,6 +14,7 @@ Transcript quantification using Salmon to estimate gene expression levels.
 
 ### Alternative Splicing Analysis with Darts
 RMATS counting: Counting of alternative splicing events (A5SS, A3SS, SE, RI) using Darts.
+
 Bayesian inference: Statistical analysis of alternative splicing events to identify significant differences.
 
 ### DEG analysis with DESeq2
